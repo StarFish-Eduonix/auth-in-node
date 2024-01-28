@@ -1,0 +1,21 @@
+{
+  "name": "insta-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Authentication Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3",
+    "uuid": "^9.0.1"
+  }
+}
